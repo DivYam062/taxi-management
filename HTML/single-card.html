@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="../Images/favicon.ico.jpg">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="../CSS/single-card.css">
+    <title>Single Detail Page</title>
+</head>
+<body>
+    <!-- Navbar -->
+
+    <div class="navbar">
+        <div class="start-nav pointer">
+            <h1><i class="fa-solid fa-taxi"></i> Taxi</h1>
+        </div>
+        <div class="center-nav">
+            <h2 class="pointer"><a href="../index.html">HOME</a></h2>
+            <h2 class="pointer"><a href="./routes-card.html">ROUTES</a></h2>
+            <h2 class="pointer"><a href="./deals.html">DEALS</a></h2>
+            <div class="search">
+                <input id="search-input" type="text" placeholder="Search...."><i id="search-icon" class="fa-solid fa-magnifying-glass pointer"></i>    
+            </div>
+            <div id="search-result" class="search-result"></div>
+        </div>
+        <div class="last-nav">
+            <div class="dropdown">
+                <i class="fa-solid fa-user pointer dropbtn"></i>
+                <div class="content">
+                    <a id="name" href="./signup.html">Sign Up</a>
+                    <a id="log" href="./login.html">Log In</a>
+                </div>
+            </div>
+            <div class="badge">
+                <i onclick="window.location.href='./booked-item.html'" class="fa-solid fa-book pointer"></i>
+                <p id="book-count">0</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Top section 1 -->
+    <div class="top-section-1">
+        
+    </div>
+
+    <!-- Mid section 1 -->
+
+    <div class="mid-section-1">
+        <h1>Our Most used Vehicles</h1>
+        <div class="parent">
+            <i class="fa-solid fa-angle-left left-arrow"></i>
+            <div class="child">
+                
+            </div>
+            <i class="fa-solid fa-angle-right right-arrow"></i>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <!-- Bottom section 1 -->
+    <div class="bottom-section-1">
+        <div>
+            <h1 class="pointer"><i class="fa-solid fa-taxi"></i> Taxi</h1>
+            <button class="pointer"><i class="fa-brands fa-apple"></i> APP STORE</button>
+            <button class="pointer"><i class="fa-brands fa-android"></i> GOOGLE PLAY</button>
+        </div>
+        <div>
+            <div>
+                <h3 class="pointer">Services</h3>
+                <p class="pointer">Address pickup</p>
+                <p class="pointer">Airport transfer</p>
+                <p onclick="window.location.href='./routes-card.html'" class="pointer">Long distance</p>
+                <p onclick="window.location.href='./routes-card.html'" class="pointer">Taxi tours</p>
+            </div>
+            <div>
+                <h3 class="pointer">Use cases</h3>
+                <p class="pointer">Events</p>
+                <p class="pointer">Promo code</p>
+                <p class="pointer">Gift cards</p>
+            </div>
+        </div>
+        <div>
+            <h3 onclick="window.location.href='../index.html'" class="pointer">About</h3>
+            <p onclick="window.location.href='./cars-card.html'" class="pointer">Taxi order</p>
+            <p onclick="window.location.href='../index.html'" class="pointer">Services</p>
+            <p onclick="window.location.href='../index.html'" class="pointer">Our app</p>
+            <p onclick="window.location.href='./deals.html'" class="pointer">Pricing</p>
+            <p class="pointer">Career</p>
+            <p onclick="window.location.href='./contact-us.html'" class="pointer">Contact us</p>
+        </div>
+    </div>
+
+    <!-- Bottom section 2 -->
+    <div class="bottom-section-2">
+        <h3><span id="admin">DivYam</span> ©. All Rights Reserved.</h3>
+        <div>
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-linkedin"></i>
+        </div>
+    </div> 
+</body>
+</html>
+
+<script src="../JS/single-card.js">
+
+</script>

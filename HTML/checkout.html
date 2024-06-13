@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="../Images/favicon.ico.jpg">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="../CSS/checkout.css">
+    <title>Checkout</title>
+</head>
+<body>
+    <!-- Navbar -->
+
+    <div class="navbar">
+        <div class="start-nav pointer">
+            <h1><i class="fa-solid fa-taxi"></i> Taxi</h1>
+        </div>
+        <div class="center-nav">
+            <h2 class="pointer"><a href="../index.html">HOME</a></h2>
+            <h2 class="pointer"><a href="./routes-card.html">ROUTES</a></h2>
+            <h2 class="pointer"><a href="./deals.html">DEALS</a></h2>
+            <div class="search">
+                <input id="search-input" type="text" placeholder="Search...."><i id="search-icon" class="fa-solid fa-magnifying-glass pointer"></i>    
+            </div>
+            <div id="search-result" class="search-result"></div>
+        </div>
+        <div class="last-nav">
+            <div class="dropdown">
+                <i class="fa-solid fa-user pointer dropbtn"></i>
+                <div class="content">
+                    <a id="name" href="./signup.html">Sign Up</a>
+                    <a id="log" href="./login.html">Log In</a>
+                </div>
+            </div>
+            <div class="badge">
+                <i onclick="window.location.href='./booked-item.html'" class="fa-solid fa-book pointer"></i>
+                <p id="book-count">0</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Top section 1 -->
+    <div class="top-section-1">
+        <div class="checkout">
+            <h1>Checkout</h1>
+            <img src="../Images/checkout.png" alt="">
+            <h2>Personal Info</h2>
+            <img class="img1" src="../Images/checkout.png" alt="">
+            <div>
+                <input id="uname" type="text" placeholder="Name" required>
+                <input id="number" type="number" placeholder="Number" required>
+                <input id="email" type="email" placeholder="Email" required>
+                <input id="address" type="text" placeholder="Pickup Address" required>
+                <input id="book-date" type="text" placeholder="DD-MM-YYYY (Date of booking)" required>
+                <input id="book-day" type="text" placeholder="Days of booking" required>
+            </div>
+            <h2>Payment</h2>
+            <img class="img1" style="width: 130px;" src="../Images/checkout.png" alt="">
+            <div>
+                <input id="holdername" type="text" placeholder="Holder Name" required>
+                <input id="cardnum" type="number" placeholder="Card Number" required>
+                <input id="date" type="text" placeholder="MM-YYYY (Expire Date)" required>
+                <input id="cvv" type="number" placeholder="CVV" required>
+            </div>
+            <button id="pay" class="pointer">PAY NOW ₹ <span class="total"></span></button>
+            <div id="alert">
+
+            </div>
+        </div>
+        <div class="selected">
+            <h1>Your Selected Route</h1>
+            <img src="../Images/checkout.png" alt="">
+            <div class="location">
+                
+            </div>
+            <h1>Your Selected Taxi</h1>
+            <img src="../Images/checkout.png" alt="">
+            <div class="taxi">
+                
+            </div>
+            <div class="total">
+                <div><p>Price:</p><p>₹<span class="pri"></span>/km</p></div>
+                <div><p>Distance:</p><p><span class="dis"></span>Km</p></div>
+                <div><p>Days:</p><p><span class="day"></span> Days</p></div>
+                <div><p>Total:</p><p>₹ <span class="tot"></span></p></div>
+            </div>
+        </div>
+        <div class="abs">
+            <div><img src="../Images/gf.gif" alt=""></div>
+            <h1>Thanks For Booking with Taxi</h1>
+        </div>
+    </div>
+
+
+    <!-- Footer -->
+    <!-- Bottom section 1 -->
+    <div class="bottom-section-1">
+        <div>
+            <h1 class="pointer"><i class="fa-solid fa-taxi"></i> Taxi</h1>
+            <button class="pointer"><i class="fa-brands fa-apple"></i> APP STORE</button>
+            <button class="pointer"><i class="fa-brands fa-android"></i> GOOGLE PLAY</button>
+        </div>
+        <div>
+            <div>
+                <h3 class="pointer">Services</h3>
+                <p class="pointer">Address pickup</p>
+                <p class="pointer">Airport transfer</p>
+                <p onclick="window.location.href='./routes-card.html'" class="pointer">Long distance</p>
+                <p onclick="window.location.href='./routes-card.html'" class="pointer">Taxi tours</p>
+            </div>
+            <div>
+                <h3 class="pointer">Use cases</h3>
+                <p class="pointer">Events</p>
+                <p class="pointer">Promo code</p>
+                <p class="pointer">Gift cards</p>
+            </div>
+        </div>
+        <div>
+            <h3 onclick="window.location.href='../index.html'" class="pointer">About</h3>
+            <p onclick="window.location.href='./cars-card.html'" class="pointer">Taxi order</p>
+            <p onclick="window.location.href='../index.html'" class="pointer">Services</p>
+            <p onclick="window.location.href='../index.html'" class="pointer">Our app</p>
+            <p onclick="window.location.href='./deals.html'" class="pointer">Pricing</p>
+            <p class="pointer">Career</p>
+            <p onclick="window.location.href='./contact-us.html'" class="pointer">Contact us</p>
+        </div>
+    </div>
+
+    <!-- Bottom section 2 -->
+    <div class="bottom-section-2">
+        <h3><span id="admin">DivYam</span> ©. All Rights Reserved.</h3>
+        <div>
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-linkedin"></i>
+        </div>
+    </div>
+</body>
+</html>
+
+<script src="../JS/checkout.js">
+
+</script>

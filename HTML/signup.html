@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="../Images/favicon.ico.jpg">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="../CSS/login-signup.css">
+    <title>SignUp</title>
+</head>
+<body>
+    <!-- Navbar -->
+
+    <div class="navbar">
+        <div class="start-nav pointer">
+            <h1><i class="fa-solid fa-taxi"></i> Taxi</h1>
+        </div>
+        <div class="center-nav">
+            <h2 class="pointer"><a href="../index.html">HOME</a></h2>
+            <h2 class="pointer"><a href="./routes-card.html">ROUTES</a></h2>
+            <h2 class="pointer"><a href="./deals.html">DEALS</a></h2>
+            <h2 class="pointer"><a href="./contact-us.html">CONTACT US</a></h2>
+        </div>
+        <div class="last-nav">
+            <button onclick="window.location.href='./login.html'">Log In</button>
+        </div>
+        
+    </div>
+
+    <!-- Sign up -->
+    <div class="parent">
+        <div class="button-box">
+            <div id="btn3"></div>
+            <button class="toggle-btn1 btn">Sign Up</button>
+        </div>
+        <form class="signup" action="">
+            <input id="name" type="text" placeholder="Enter your name...">
+            <input id="number" type="number" placeholder="Enter your phone number...">
+            <input id="email" type="email" placeholder="Enter your email...">
+            <input id="pass" type="password" placeholder="Enter Password...">
+            <button id="signup-btn" class="pointer">Sign Up</button>
+        </form>
+        <div class="social-icons">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-regular fa-envelope"></i>
+            <i class="fa-brands fa-google"></i>
+        </div>
+        <div id="alert">
+
+        </div>
+    </div>
+</body>
+</html>
+
+<script src="../JS/signup.js">
+
+</script>

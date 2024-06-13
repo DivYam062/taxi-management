@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="./Images/favicon.ico.jpg">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./CSS/index.css">
+    <title>Taxi Management</title>
+</head>
+<body>
+
+    <!-- Navbar -->
+    
+    <div class="navbar">
+        <div class="start-nav pointer">
+            <h1><i class="fa-solid fa-taxi"></i> Taxi</h1>
+        </div>
+        <div class="center-nav">
+            <h2 class="pointer"><a style="color: #ffad06;" href="./index.html">HOME</a></h2>
+            <h2 class="pointer"><a href="./HTML/routes-card.html">ROUTES</a></h2>
+            <h2 class="pointer"><a href="./HTML/deals.html">DEALS</a></h2>
+            <div class="search">
+                <input id="search-input" type="text" placeholder="Search...."><i id="search-icon" class="fa-solid fa-magnifying-glass pointer"></i>    
+            </div>
+            <div id="search-result" class="search-result"></div>
+        </div>
+        <div class="last-nav">
+            <div class="dropdown">
+                <i class="fa-solid fa-user pointer dropbtn"></i>
+                <div class="content">
+                    <a id="name" href="./HTML/signup.html">Sign Up</a>
+                    <a id="log" href="./HTML/login.html">Login</a>
+                </div>
+            </div>
+            <div class="badge">
+                <i onclick="window.location.href='./HTML/booked-item.html'" class="fa-solid fa-book pointer"></i>
+                <p id="book-count">0</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Top Section 1-->
+
+    <div class="top-section-1">
+        <h1 style="height: 450px;"></h1>
+    </div>
+
+    <!-- Top section 2 -->
+
+    <div class="top-section-2">
+        <h1><i class="fa-solid fa-location-dot"></i> Available Routes</h1>
+        <div>
+            <div class="parent-routes">
+                <i class="fa-solid fa-chevron-left pointer" id="left-arrow"></i>
+                <div id="scroll-container">
+                    
+                </div>
+                <i class="fa-solid fa-chevron-right pointer" id="right-arrow"></i>
+            </div>
+            <a href="./HTML/routes-card.html">Explore More <i class="fa-solid fa-arrow-right"></i></a>
+        </div>
+    </div>
+
+    <!-- Top section 3 -->
+    <div class="top-section-3">
+        <div>
+            <img src="./Images/top-section-3-img-1.png" alt="">
+        </div>
+        <div>
+            <h1>Get more <span>benefits,</span> download the App</h1>
+            <h3>Order through the application and get a 15% discount</h3>
+            <p><i class="fa-solid fa-square-check"></i> <span>Fast booking</span> driver will be awaiting your arrival and will transport you 
+                directly to your accommodation</p>
+            <p><i class="fa-solid fa-square-check"></i> <span>Easy to use</span> you just have to lean back and enjoy the ride</p>
+            <p><i class="fa-solid fa-square-check"></i> <span>Bonuses for ride</span> discounted rates, so you can be sure that you will be 
+                getting the best value transfers</p>
+        </div>
+    </div>
+    
+    <!-- Mid section 1 -->
+    <div class="mid-section-1">
+        <h1><i class="fa-solid fa-car"></i> Car classes and rates</h1>
+        <div class="parent-cars">
+            <i class="fa-solid fa-chevron-left pointer" id="left"></i>
+            <div class="child-cars">
+                
+            </div>
+            <i class="fa-solid fa-chevron-right pointer" id="right"></i>
+        </div>
+    </div>
+
+    <!-- Mid section 2 -->
+    <div class="mid-section-2">
+        <div>
+            <h1>We are ready to take your call 24 hours, 7 days!</h1>
+            <button onclick="window.location.href='./HTML/contact-us.html'" class="pointer">Contact Us <i class="fa-solid fa-arrow-right"></i></button>
+        </div>
+        <div>
+            <div class="img-1">
+                <img src="./Images/mid-section-2-img-1.avif" alt="">
+            </div>
+            <div class="img-2">
+                <img src="./Images/mid-section-2-img-2.jpg" alt="">
+            </div>
+        </div>
+    </div>
+
+    <!-- Mid section 3 -->
+    <div class="mid-section-3">
+        <h1>Services</h1>
+        <div>
+            <div class="pointer" style="background: linear-gradient(rgb(255, 0, 0),rgb(189, 85, 85));">
+                <i class="fa-solid fa-map-location-dot i-size"></i></i>
+                <h1>Address Pickup</h1>
+            </div>
+            <div class="pointer" style="background: linear-gradient(rgb(17, 255, 0),rgb(99, 189, 85));">
+                <i class="fa-solid fa-plane i-size"></i>
+                <h1>Airport Transfer</h1>
+            </div>
+            <div class="pointer" style="background: linear-gradient(rgb(234, 255, 0),rgb(184, 189, 85));">
+                <i class="fa-solid fa-location-crosshairs i-size"></i>
+                <h1>Long Distance</h1>
+            </div>
+            <div class="pointer" style="background: linear-gradient(rgb(0, 8, 255),rgb(85, 106, 189));">
+                <i class="fa-solid fa-suitcase i-size"></i>
+                <h1>Taxi Tours</h1>
+            </div>
+        </div>
+    </div>
+
+    <!-- footer -->
+
+    <!-- Bottom section 1 -->
+    <div class="bottom-section-1">
+        <div>
+            <h1 class="pointer"><i class="fa-solid fa-taxi"></i> Taxi</h1>
+            <button class="pointer"><i class="fa-brands fa-apple"></i> APP STORE</button>
+            <button class="pointer"><i class="fa-brands fa-android"></i> GOOGLE PLAY</button>
+        </div>
+        <div>
+            <div>
+                <h3 class="pointer">Services</h3>
+                <p class="pointer">Address pickup</p>
+                <p class="pointer">Airport transfer</p>
+                <p onclick="window.location.href='./HTML/routes-card.html'" class="pointer">Long distance</p>
+                <p onclick="window.location.href='./HTML/routes-card.html'" class="pointer">Taxi tours</p>
+            </div>
+            <div>
+                <h3 class="pointer">Use cases</h3>
+                <p class="pointer">Events</p>
+                <p class="pointer">Promo code</p>
+                <p class="pointer">Gift cards</p>
+            </div>
+        </div>
+        <div>
+            <h3 onclick="window.location.href='./index.html'" class="pointer">About</h3>
+            <p onclick="window.location.href='./HTML/cars-card.html'" class="pointer">Taxi order</p>
+            <p onclick="window.location.href='./index.html'" class="pointer">Services</p>
+            <p onclick="window.location.href='./index.html'" class="pointer">Our app</p>
+            <p onclick="window.location.href='./HTML/deals.html'" class="pointer">Pricing</p>
+            <p class="pointer">Career</p>
+            <p onclick="window.location.href='./HTML/contact-us.html'" class="pointer">Contact us</p>
+        </div>
+    </div>
+
+    <!-- Bottom section 2 -->
+    <div class="bottom-section-2">
+        <h3><span id="admin">DivYam</span> &copy;. All Rights Reserved.</h3>
+        <div>
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-linkedin"></i>
+        </div>
+    </div>
+</body>
+</html>
+
+<script src="./JS/index.js">
+
+</script>

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="../Images/favicon.ico.jpg">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="../CSS/admin-dashboard.css">
+    <title>Dashboard</title>
+</head>
+<body>
+    <div class="main">
+        <div class="navbar">
+            <div class="heading">
+                <h1><i class="fa-solid fa-taxi"></i>Taxi</h1>
+            </div>
+            <div class="details">
+                <div id="na">
+                    <i class="fa-solid fa-user"></i>
+                </div>
+                <button id="name" class="pointer">SIGN-UP</button>
+                <button id="log" onclick="window.location.href='./admin-login.html'" class="pointer">LOG-IN</button>
+            </div>
+            <div class="content">
+                <h3 style="color: rgb(255, 179, 0);" class="pointer" onclick="window.location.href='./admin-dashboard.html'"><i class="fa-solid fa-gauge-high"></i> Dashboard</h3>
+                <h3 class="pointer" onclick="window.location.href='./admin-drivers.html'"><i class="fa-solid fa-id-card"></i> Drivers</h3>
+                <h3 class="pointer" onclick="window.location.href='./admin-customers.html'"><i class="fa-solid fa-book"></i></i> Bookings</h3>
+                <h3 class="pointer" onclick="window.location.href='../index.html'"><i class="fa-solid fa-house"></i> Home Page</h3>
+            </div>
+        </div>
+        <div class="dashboard">
+            <h1>Dashboard <i class="fa-solid fa-gauge-high"></i></h1>
+            <div class="cards">
+                <div class="card pointer">
+                    <div class="img img-1">
+                        <i class="fa-solid fa-users"></i>
+                    </div>
+                    <div class="text">
+                        <h2 id="active-customer"></h2>
+                        <p>ACTIVE CUSTOMERS</p>
+                    </div>
+                </div>
+                <div class="card pointer">
+                    <div class="img img-2">
+                        <i class="fa-solid fa-taxi"></i>
+                    </div>
+                    <div class="text">
+                        <h2 id="active-driver"></h2>
+                        <p>AVAILABLE DRIVERS</p>
+                    </div>
+                </div>
+                <div class="card pointer">
+                    <div class="img img-3">
+                        <i class="fa-solid fa-id-card"></i>
+                    </div>
+                    <div class="text">
+                        <h2 id="active-booking"></h2>
+                        <p>ACTIVE BOOKING</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1767558.1181899963!2d77.98651503974143!3d30.08668338793147!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3909dcc202279c09%3A0x7c43b63689cc005!2sUttarakhand!5e0!3m2!1sen!2sin!4v1716460154012!5m2!1sen!2sin" width="98%" height="435" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+
+<script src="../JS/admin-dashboard.js">
+
+</script>

@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="../Images/favicon.ico.jpg">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="../CSS/contact-us.css">
+    <title>Contact Us</title>
+</head>
+<body>
+    <!-- Navbar -->
+
+    <div class="navbar">
+        <div class="start-nav pointer">
+            <h1><a href="../index.html"><i class="fa-solid fa-taxi"></i> Taxi</a></h1>
+        </div>
+        <div class="center-nav">
+            <h2 class="pointer"><a href="../index.html">HOME</a></h2>
+            <h2 class="pointer"><a href="./routes-card.html">ROUTES</a></h2>
+            <h2 class="pointer"><a href="./deals.html">DEALS</a></h2>
+            <div class="search">
+                <input id="search-input" type="text" placeholder="Search...."><i id="search-icon" class="fa-solid fa-magnifying-glass pointer"></i>    
+            </div>
+            <div id="search-result" class="search-result"></div>
+        </div>
+        <div class="last-nav">
+            <div class="dropdown">
+                <i class="fa-solid fa-user pointer dropbtn"></i>
+                <div class="content">
+                    <a id="name" href="./signup.html">Sign Up</a>
+                    <a id="log" href="./login.html">Log In</a>
+                </div>
+            </div>
+            <div class="badge">
+                <i onclick="window.location.href='./booked-item.html'" class="fa-solid fa-book pointer"></i>
+                <p id="book-count">0</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Top section 1 -->
+    <div class="top-section-1">
+        <h1></h1>
+    </div>
+
+    <!-- Top section 2 -->
+    <div class="top-section-2">
+        <div class="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d861.0582649427022!2d78.03336226958992!3d30.315887998424277!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMzDCsDE4JzU3LjIiTiA3OMKwMDInMDIuNCJF!5e0!3m2!1sen!2sin!4v1715932020789!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        <div class="details">
+            <div>
+                <h1>Contact Info</h1>
+                <p><span>Toll free number: </span>07926468882, 02225782135</p>
+                <p><span>Email: </span>taxi@gmail.com</p>
+                <p><span>Address: </span>123, MSC building, Race Course, Dehradun</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <!-- Bottom section 1 -->
+    <div class="bottom-section-1">
+        <div>
+            <h1 class="pointer"><i class="fa-solid fa-taxi"></i> Taxi</h1>
+            <button class="pointer"><i class="fa-brands fa-apple"></i> APP STORE</button>
+            <button class="pointer"><i class="fa-brands fa-android"></i> GOOGLE PLAY</button>
+        </div>
+        <div>
+            <div>
+                <h3 class="pointer">Services</h3>
+                <p class="pointer">Address pickup</p>
+                <p class="pointer">Airport transfer</p>
+                <p onclick="window.location.href='./routes-card.html'" class="pointer">Long distance</p>
+                <p onclick="window.location.href='./routes-card.html'" class="pointer">Taxi tours</p>
+            </div>
+            <div>
+                <h3 class="pointer">Use cases</h3>
+                <p class="pointer">Events</p>
+                <p class="pointer">Promo code</p>
+                <p class="pointer">Gift cards</p>
+            </div>
+        </div>
+        <div>
+            <h3 onclick="window.location.href='../index.html'" class="pointer">About</h3>
+            <p onclick="window.location.href='./cars-card.html'" class="pointer">Taxi order</p>
+            <p onclick="window.location.href='../index.html'" class="pointer">Services</p>
+            <p onclick="window.location.href='../index.html'" class="pointer">Our app</p>
+            <p onclick="window.location.href='./deals.html'" class="pointer">Pricing</p>
+            <p class="pointer">Career</p>
+            <p onclick="window.location.href='./contact-us.html'" class="pointer">Contact us</p>
+        </div>
+    </div>
+
+    <!-- Bottom section 2 -->
+    <div class="bottom-section-2">
+        <h3><span id="admin">DivYam</span> ©. All Rights Reserved.</h3>
+        <div>
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-linkedin"></i>
+        </div>
+    </div>
+</body>
+</html>
+
+<script src="../JS/contact-us.js">
+
+</script>
