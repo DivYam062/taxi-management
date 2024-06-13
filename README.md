@@ -18,13 +18,13 @@ This application enhances the overall taxi booking experience by providing a use
 
 Link- https://66698f12c3837811a0d9ebec--roaring-bombolone-b1f6a6.netlify.app/
 
-#Text-Stack
+# Text-Stack
 
 1- HTML<br/>
 2- CSS<br/>
 3- JavaScript<br/>
 
-#Features
+# Features
 
 User End Features:<br/>
 
@@ -64,7 +64,7 @@ Filters to view the booking status of customer.<br/>
 5-Search<br/>
 Search customer and there booking details and also search drivers with there name.<br/>
 
-#Snapshot:
+# Snapshot:
 
 User Navbar:<br/>
 ![image](https://github.com/DivYam062/taxi-management/assets/106383705/a02cf5a1-bf5c-44be-ae82-2c2866f55b7b)
