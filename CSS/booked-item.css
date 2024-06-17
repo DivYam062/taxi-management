@@ -438,6 +438,10 @@
         width: 90%;
     }
 
+    .no-item{
+        font-size: 30px;
+    }
+
     .bottom-section-1{
         margin: 0 50px;
         justify-content: space-between;
@@ -523,5 +527,10 @@
 
     .bottom-section-2>h3{
         margin-bottom: 20px;
+    }
+
+    .no-item{
+        margin: 20px;
+        font-size: 15px;
     }
 }
