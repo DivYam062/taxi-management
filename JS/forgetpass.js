@@ -69,3 +69,23 @@ function loadChanges(email,password){
         showAlert("User not found!", "red");
     }
 }
+
+//Burgur
+let burgur=document.querySelector(".burgur");
+let x=document.querySelector(".x");
+let navDrop=document.querySelector(".nav-dropdown");
+
+burgur.addEventListener("click",handleBurgur);
+x.addEventListener("click",handleX);
+
+function handleBurgur(){
+    x.style.display="block";
+    navDrop.style.display="block";
+    burgur.style.display="none";
+}
+
+function handleX(){
+    x.style.display="none";
+    navDrop.style.display="none";
+    burgur.style.display="block";
+}

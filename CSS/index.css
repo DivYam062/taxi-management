@@ -208,6 +208,18 @@
     font-weight: bold;
 }
 
+.burgur{
+    display: none;
+}
+
+.x{
+    display: none;
+}
+
+.nav-dropdown{
+    display: none;
+}
+
 /* Top section 1 */
 
 .top-section-1{
@@ -718,4 +730,298 @@
     background-color: white;
     color: black;
     border: 2px solid black;
+}
+
+@media only screen and (min-width:700px) and (max-width: 1200px) {
+    
+    .navbar{
+        justify-content: space-between;
+        padding: 10px 20px;  
+        width: 95%;
+    }
+    
+    .center-nav{
+        display: none;
+    }
+
+    .burgur{
+        display: block;
+    }
+
+    .x{
+        display: none;
+    }
+
+    .nav-dropdown{
+        display: none;
+        background-color: black;
+        color: white;
+        position: absolute;
+        width: 250px;
+        right: 0;
+        top: 75px;
+        border: 1px solid black;
+    }
+
+    .nav-dropdown h2{
+        padding: 40px 20px;
+    }
+
+    .top-section-1{
+        background-image: url('../Images/4-Dham-2.webp');
+        background-position: center; 
+    }
+
+    .top-section-2{
+        padding: 50px 50px 0px 50px;
+    }
+
+    .top-section-2>div{
+        flex-direction: column;
+    }
+
+    .parent-routes{
+        width: 100% ;
+    }
+
+    .top-section-3{
+        flex-direction: column;
+    }
+
+    .mid-section-1{
+        margin-top: 50px;
+    }
+
+    .parent-cars{
+        overflow: initial;
+    }
+
+    .parent-cars i{
+        display: none;
+    }
+
+    .child-cars{
+        width: 100%;
+        overflow-x: initial;
+        scroll-behavior: initial;
+        display: grid;
+        grid-template-columns: repeat(2,46%);
+        gap: 30px;
+    }
+
+    .car-class{
+        width: 90%;
+        margin: 0px;
+    }
+
+    .mid-section-2{
+        flex-direction: column;
+        padding: 0 100px;
+        align-items: initial;
+    }
+
+    .mid-section-2>div:first-child{
+        padding: 100px 0;
+    }
+
+    .img-1{
+        position: initial;
+        width: 400px;
+        height: 400px;
+        margin-bottom: 130px;
+    }
+
+    .img-2{
+        top: 270px;
+        left: 65%;
+    }
+
+    .mid-section-3>div{
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(2, 48%);
+    }
+
+    .mid-section-3>div>div{
+        width: 80%;
+    }
+
+    .bottom-section-1{
+        margin: 0 50px;
+        justify-content: space-between;
+    }
+
+    .bottom-section-1 button{
+        width: 200px    ;
+    }
+}
+
+@media only screen and (max-width:700px){
+    .navbar{
+        justify-content: space-between;
+        padding: 10px 20px;  
+        width: 92%;
+    }
+
+    .start-nav h1{
+        font-size: 33px;
+    }
+    
+    .center-nav{
+        display: none;
+    }
+
+    .burgur{
+        display: block;
+    }
+
+    .x{
+        display: none;
+    }
+
+    .nav-dropdown{
+        display: none;
+        background-color: black;
+        color: white;
+        position: absolute;
+        width: 250px;
+        right: 0;
+        top: 75px;
+        border: 1px solid black;
+    }
+
+    .nav-dropdown h2{
+        padding: 40px 20px;
+    }
+
+    .top-section-1{
+        background-image: url('../Images/4-Dham-3.jpg');
+        background-position: center;
+        margin-bottom: 40px;
+    }
+
+    .top-section-2{
+        padding: 0px 10px 50px 10px;
+    }
+
+    .top-section-2>h1{
+        font-size: 40px;
+        margin-left: 10px;
+    }
+
+    .top-section-2>div{
+        flex-direction: column;
+    }
+
+    .parent-routes{
+        width: 100% ;
+    }
+
+    .top-section-3{
+        flex-direction: column;
+    }
+
+    .top-section-3>div:first-child{
+        display: none;
+    }
+
+    .mid-section-1{
+        margin-top: 50px;
+    }
+
+    .mid-section-1 h1{
+        font-size: 30px;
+    }
+
+    .parent-cars{
+        overflow: initial;
+    }
+
+    .parent-cars i{
+        display: none;
+    }
+
+    .child-cars{
+        width: 100%;
+        overflow-x: initial;
+        scroll-behavior: initial;
+        display: grid;
+        grid-template-columns: repeat(1,100%);
+        gap: 30px;
+    }
+
+    .car-class{
+        width: 90%;
+        margin: 0px;
+    }
+
+    .mid-section-2{
+        flex-direction: column;
+        padding: 0 50px;
+        align-items: initial;
+    }
+
+    .mid-section-2>div:first-child h1{
+        font-size: 23px;
+        width: 200px;
+    }
+
+    .mid-section-2>div:first-child button{
+        width: 180px;
+        height: 50px;
+        font-size: 20px;
+    }
+
+    .mid-section-2>div:first-child{
+        padding: 100px 0;
+    }
+
+    .img-1{
+        position: initial;
+        width: 300px;
+        height: 300px;
+        margin-bottom: 130px;
+    }
+
+    .img-2{
+        top: 220px;
+        left: 92%;
+        width: 150px;
+        height: 150px;
+    }
+
+    .mid-section-3>div{
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .mid-section-3>div>div{
+        width: 80%;
+    }
+
+    .bottom-section-1{
+        margin: 0 50px;
+        flex-direction: column;
+        padding-bottom: 50px;
+    }
+
+    .bottom-section-1>div{
+        width: 100%;
+    }
+
+    .bottom-section-1>div:first-child h1{
+        font-size: 28px;
+    }
+
+    .bottom-section-1 button{
+        width: 200px;
+    }
+
+    .bottom-section-2{
+        flex-direction: column;
+    }
+
+    .bottom-section-2>h3{
+        margin-bottom: 20px;
+    }
 }

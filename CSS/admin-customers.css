@@ -156,6 +156,10 @@
     box-shadow: 0 0 5px gray;
 }
 
+.customer-card span{
+    font-weight: bold;
+}
+
 .number{
     display: flex;
     justify-content: center;

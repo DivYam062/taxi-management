@@ -207,12 +207,17 @@
     font-weight: bold;
 }
 
+.burgur, .x, .nav-dropdown{
+    display: none;
+}
+
 /* Top section 1 */
 
 .top-section-1{
     background-image: url('../Images/routes-banner-1.png');
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
     padding-top: 80px;
     height: 745px;
 }
@@ -446,4 +451,168 @@
     background-color: white;
     color: black;
     border: 2px solid black;
+}
+
+@media only screen and (min-width:700px) and (max-width: 1200px) {
+    
+    .navbar{
+        justify-content: space-between;
+        padding: 10px 20px;  
+        width: 95%;
+    }
+    
+    .center-nav{
+        display: none;
+    }
+
+    .burgur{
+        display: block;
+    }
+
+    .x{
+        display: none;
+    }
+
+    .nav-dropdown{
+        display: none;
+        background-color: black;
+        color: white;
+        position: absolute;
+        width: 250px;
+        right: 0;
+        top: 75px;
+        border: 1px solid black;
+    }
+
+    .nav-dropdown h2{
+        padding: 40px 20px;
+    }
+
+    .filter{
+        display: grid;
+        margin: 0 150px;
+        grid-template-columns: repeat(2,50%);
+        gap: 20px;
+    }
+
+    .filter select{
+        margin: auto;
+    }
+
+    #search-input1{
+        width: 150px;
+        height: 36px;
+        margin: 0 30px;
+    }
+
+    .parent-routes{
+        grid-template-columns: repeat(2,50%);
+        margin: 75px;
+    }
+
+    .bottom-section-1{
+        margin: 0 50px;
+        justify-content: space-between;
+    }
+
+    .bottom-section-1 button{
+        width: 200px    ;
+    }
+
+}
+
+@media only screen and (max-width:700px){
+    .navbar{
+        justify-content: space-between;
+        padding: 10px 20px;  
+        width: 92%;
+    }
+
+    .start-nav h1{
+        font-size: 33px;
+    }
+    
+    .center-nav{
+        display: none;
+    }
+
+    .burgur{
+        display: block;
+    }
+
+    .x{
+        display: none;
+    }
+
+    .nav-dropdown{
+        display: none;
+        background-color: black;
+        color: white;
+        position: absolute;
+        width: 250px;
+        right: 0;
+        top: 75px;
+        border: 1px solid black;
+    }
+
+    .top-section-1 h1{
+        font-size: 50px;
+    }
+
+    .nav-dropdown h2{
+        padding: 40px 20px;
+    }
+    
+    .mid-section-1>h1{
+        font-size: 30px;
+        margin: 50px 40px;
+        width: 80%;
+    }
+
+    .filter{
+        display: grid;
+        grid-template-columns: repeat(1,100%);
+        gap: 20px;
+    }
+
+    .filter select{
+        margin: auto;
+    }
+
+    #search-input1{
+        width: 150px;
+        height: 36px;
+        margin: 0 10px;
+    }
+
+    .parent-routes{
+        grid-template-columns: repeat(1,100%);
+        margin: 50px;
+    }
+
+    .bottom-section-1{
+        margin: 0 50px;
+        flex-direction: column;
+        padding-bottom: 50px;
+    }
+
+    .bottom-section-1>div{
+        width: 100%;
+    }
+
+    .bottom-section-1>div:first-child h1{
+        font-size: 28px;
+    }
+
+    .bottom-section-1 button{
+        width: 200px;
+    }
+
+    .bottom-section-2{
+        flex-direction: column;
+    }
+
+    .bottom-section-2>h3{
+        margin-bottom: 20px;
+    }
 }

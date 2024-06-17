@@ -30,6 +30,7 @@ function displayCustomers(data) {
                     <div class="text">
                         <h3>${cus.locName}</h3>
                         <p><span>Distance: </span>${cus.locDis}Km</p>
+                        <p><span>Booking Date: </span>${cus.bookingDate}</p>
                     </div>
                 </div>
                 <div class="taxi">
@@ -38,7 +39,8 @@ function displayCustomers(data) {
                     </div>
                     <div class="text">
                         <h3>${cus.carName}</h3>
-                        <p>₹${cus.carPrice}/km</p>
+                        <p><span>Price: </span>₹${cus.carPrice}/km</p>
+                        <p><span>Days: </span>${cus.bookingDay}</p>
                     </div>
                 </div>
             `;
