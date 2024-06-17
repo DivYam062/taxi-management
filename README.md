@@ -16,7 +16,7 @@ This application enhances the overall taxi booking experience by providing a use
 
 # deploy-link
 
-Link- https://666fe127975825f517d18842--dapper-eclair-bbe5b8.netlify.app/
+Link- https://666fe4f7e6b7b100ab0cda45--glowing-pasca-316ae5.netlify.app/
 
 # Text-Stack
 
