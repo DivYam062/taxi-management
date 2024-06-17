@@ -47,6 +47,9 @@ Sort available rides based on price, estimated time, and price.<br/>
 5-Search Functionality:<br/>
 Search for rides based on destination or vehicle name.<br/>
 
+6-Responsive<br/>
+User side is full responsive for devices like ipad (ipad Air,ipad mini) and phones (iphone XR, iphone SE, samsung galaxy S20 Ultra) etc..
+
 Admin End Features:<br/>
   
 1-Authentication:<br/>
