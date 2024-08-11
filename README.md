@@ -7,7 +7,8 @@ The Taxi Management Application is a comprehensive solution designed to streamli
 User End:
 
 Book a Taxi: Users can easily book a taxi through the application by entering their pick-up and drop-off locations.
-Cancel a Taxi: Users have the flexibility to cancel their taxi bookings if their plans change.
+Cancel a Taxi: Users have the flexibility to cancel their taxi bookings if their plans change.<br/>
+
 Admin End:
 
 Driver Management: Admins can manage driver profiles, including adding new drivers, updating existing driver details, and removing drivers from the system.
